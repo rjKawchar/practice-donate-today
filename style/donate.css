@@ -1,0 +1,411 @@
+*{
+    margin: 0px;
+}
+
+.header {
+    background-image: url('../images/donation1.jpg');
+    background-repeat: no-repeat;
+    /* bg pic full weidth niye nibe  */
+    background-size: cover;
+    color: white;
+    
+
+}
+
+/* bg banner and header section */
+
+.header
+ h1{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+    color: white;
+    padding: 200px 307px 20px 307px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 65px;
+}
+
+.header 
+ p{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    padding: 0px 374px 30px 375px;
+
+
+}
+
+.btn-primary {
+    font-family: Inter;
+
+    background: #FF5959;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 17px 20px;
+    color: white;
+    border: 0;
+    margin-bottom: 200px;
+    margin-left: 760px;
+    
+}
+
+.btn-primary1 {
+    font-family: Inter;
+
+    background: #FF5959;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 16px 12px;
+    color: white;
+    border: 0;
+    
+}
+
+.btn-primary2 {
+
+    background: #FF5959;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 14px 43px;
+    border: 0;
+
+    color: white;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 20px;
+    
+}
+
+/* main ar vitor section tag ar vitor donate class */
+
+.donate
+h1{
+    color: #121212;
+    font-size: 45px;
+    font-family: Inter;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 20px;
+
+
+}
+
+.donate
+p {
+    color: #707070;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-right: 375px;
+    padding-left: 375px;
+    
+}
+
+.donate-amount{
+    display: flex;
+    gap: 22px;
+    margin-left: 425px;
+    
+}
+
+.amount{
+    background: #FAFAFA; border-radius: 5px;
+    color: #707070;
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 700;
+    padding: 44px 22px;
+    
+}
+.amount-color{
+    background: #FFEEEE;
+    border-radius: 5px;
+    color: #FF5959;
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 700;
+    padding: 44px 22px;
+    border: 2px solid;
+}
+
+#margin-bottom{
+    color: #B3B3B3;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    padding-right: 375px;
+    padding-left: 375px;
+}
+
+hr{
+    border: 1px #DADADA solid;
+    margin: 9px 400px 30px 425px;
+}
+
+/* donate plan */
+
+.donate-plan 
+h1{
+    color: #121212;
+    font-size: 45px;
+    font-family: Inter;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.donate-plan>
+p{ 
+    /* > sign used krar por p tag style pay. > sign na diel others p tag same style pelo keno? */
+    color: #707070;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 375px;
+    margin-right: 375px;
+}
+
+.donate-categories{
+    display: flex;
+    gap: 20px;
+    padding-left: 160px;
+    padding-right: 160px;
+    margin-bottom: 180px;
+    
+    
+}
+
+.donate-for-food{
+    background: rgba(79, 157, 166, 0.10);
+    border-radius: 5px;
+    padding-top: 60px;
+    padding-left: 23px;
+}
+
+.donate-for-food img, h2{
+    margin-bottom: 24px;
+    color: #121212;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.donate-for-food p{
+    color: #707070;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    padding-right: 22px;
+    padding-bottom: 55px;
+}
+
+.donate-for-shelter{
+    background: rgba(255, 89, 89, 0.10);
+    border-radius: 5px;
+    padding-top: 60px;
+    padding-left: 23px;
+}
+
+.donate-for-shelter img, h2{
+    margin-bottom: 24px;
+    color: #121212;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.donate-for-shelter p{
+    color: #707070;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    padding-right: 22px;
+    padding-bottom: 55px;
+
+}
+
+.donate-for-education{
+    background: #FFF4D6; border-radius: 5px;
+    padding-top: 60px;
+    padding-left: 23px;
+}
+
+.donate-for-education img, h2{
+    margin-bottom: 24px;
+    color: #121212;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.donate-for-education p{
+    color: #707070;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    padding-right: 22px;
+    padding-bottom: 55px;
+
+}
+
+/* Contribute style */
+
+.contribute h1{
+    color: #121212;
+    font-size: 45px;
+    font-family: Inter;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+.contribute p{
+    color: #707070;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 25px;
+    
+}
+
+.frist-contribute{
+    display: flex;
+    gap: 96px;
+    padding-left: 160px;
+    padding-right: 160px;
+    margin-bottom: 100px;
+    
+}
+.frist-contribute img {
+    height: 410px;
+    width: 600px;
+}
+
+.second-contribute{
+    display: flex;
+    gap: 80px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.second-contribute img {
+    height: 410px;
+    width: 600px;
+}
+
+.second-contribute .contribute-title{
+    margin-left: 15px;
+}
+
+/* contact style */
+
+.contact{
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 130px;
+}
+
+.contact h1{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #121212;
+    font-size: 45px;
+    font-family: Inter;
+    font-weight: 700;
+}
+
+#contact-description{
+    color: #707070;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+} 
+
+.contact-option{
+    display: flex;
+    background: #FFF4D6;
+    justify-content: center;
+    padding: 76px 290px;
+    
+}
+
+.contact-email{
+   
+    background: #D9D9D9; 
+    padding: 14px 218px 14px 17px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#email-title{
+    
+    color: #AA9F9F;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 20px;
+  
+    
+}
+
+    /* footer style */
+
+
+  
+.footer-background{
+    text-align: center; 
+    background-color: black;
+
+}
+
+.footer-title{
+    padding: 50px;
+}
+
+#title-h {
+    font-family: Lobster;
+   
+    color: #FF5959;
+    font-size: 36px; 
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0.50px;
+    margin-bottom: 24px;
+
+
+}
+
+#title-p{
+
+    font-family: Manrope;
+    color: #D9DBE1;
+    font-size: 14px;
+   
+    font-weight: 400;
+    line-height: 24px;
+}
