@@ -207,6 +207,7 @@ p{
     font-size: 24px;
     font-family: Poppins;
     font-weight: 600;
+   
 }
 
 .donate-for-food p{
@@ -298,6 +299,7 @@ p{
 .frist-contribute img {
     height: 410px;
     width: 600px;
+    border-radius: 5px;
 }
 
 .second-contribute{
@@ -310,6 +312,7 @@ p{
 .second-contribute img {
     height: 410px;
     width: 600px;
+    border-radius: 5px;
 }
 
 .second-contribute .contribute-title{
